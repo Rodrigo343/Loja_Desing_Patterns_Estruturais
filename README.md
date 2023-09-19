@@ -1,0 +1,1 @@
+# Loja-Desing-Patterns-Estruturais
