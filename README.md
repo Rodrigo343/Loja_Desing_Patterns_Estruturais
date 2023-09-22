@@ -25,6 +25,6 @@
 
 :red_circle:**Problema 2 →** Temos vários tipos de impostos e atualmente nosso sistema só comporta aplicar um imposto por vez, desenvolvemos uma nova classe que é a junção de dois imposto. Mas caso venha a aparecer mais impostos e mais combinações o nosso código virá a cresce infinitamente com a quantidade de combinações e se para cada uma delas precisarmos criar um classe irá ficar bem estranho essa estrutura.
 
-:heavy_check_mark:** Solução →**  Utilizado o padrão de projeto **Decorator** decoramos um objeto com outro objeto, ou seja, fazemos uma composição de um objeto com outro objeto. No caso do nosso projeto são os impostos, compomos um objeto de imposto com outro, assim conseguimos deixar nosso código mais flexível pois só precisamos fazer essa composição entre os objetos dependendo da regra que necessitarmos
+:heavy_check_mark:**Solução →**   Utilizado o padrão de projeto **Decorator** decoramos um objeto com outro objeto, ou seja, fazemos uma composição de um objeto com outro objeto. No caso do nosso projeto são os impostos, compomos um objeto de imposto com outro, assim conseguimos deixar nosso código mais flexível pois só precisamos fazer essa composição entre os objetos dependendo da regra que necessitarmos
 
 :information_source:** Objetivo do Decorator →**  Poder decorar, compor o objeto que você tem em seu código sem precisar alterar ou adaptar as características já existentes. O seu objeto original continua sendo eles mesmo apenas que com a agregação de uma nova característica/funcionalidade.
