@@ -38,3 +38,13 @@
 :heavy_check_mark:**Solução →** Utilizado o padrão de projeto **Composite** fazemos com que um orçamento componha o outro, diferente do decorator oque realizamos aqui é como se fosse uma hierarquia, uma estrutura de arvore, pois um objeto será composto por outro objeto. No caso um orçamento dentro de outro. No qual é possível acessar o objeto mais geral ou algum mais especifico.
 
 :information_source:**Objetivo do Composite →** Poder compor um objeto com outro, diferente do decorator, aqui podemos fazer uma estrutura de arvore, onde cada qual tem seu lugar. Mas caso seja necessário criar algo novo para integrar nessa composição será necessário realizar ajustes nas classes para que seja possível compor mais objetos, diferente do decorator o qual posso somente criar uma classe nova e decorar ela com outra sem precisar de alteração na já existente.
+
+---
+
+### Problema 4
+
+:red_circle:**Problema 4 →** Nesse caso em nosso projeto não temos problemas por causa da nossa implementação, acabamos por ventura já implementando o design pattern. Mas um possível problema seria se deixássemos toda a lógica de criação do processo de pedidos em uma classe só e essa mesma tivesse que chamar um processo de cada vez, assim tornando bem complexo de se entender o fluxo naquele local.
+
+:heavy_check_mark:**Solução →** Para esse caso utilizaríamos o facade, como o próprio nome diz criamos uma “fachada”, na qual nessa classe iriamos apenas chamar uma função principal que ira executar todos outros processos por de traz da criação de pedido a qual não precisaremos especificar os processos que precisam ser feitos quando chamarmos a criação de um pedido.
+
+:information_source:**Objetivo do Facade →** O Facade tem como objetivo abstrair todo um processo complexo e não deixar amostra isso para o cliente, facilitando a implementação e entendimento do código. Pois todas as tarefas desse processo complexo estarão diluídas em outros lugares a qual serão chamadas e executadas em sua ordem e que a classe que do cliente não precisa saber as outras funcionalidades/tarefas.
