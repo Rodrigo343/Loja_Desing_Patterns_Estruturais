@@ -28,3 +28,13 @@
 :heavy_check_mark:**Solução →**   Utilizado o padrão de projeto **Decorator** decoramos um objeto com outro objeto, ou seja, fazemos uma composição de um objeto com outro objeto. No caso do nosso projeto são os impostos, compomos um objeto de imposto com outro, assim conseguimos deixar nosso código mais flexível pois só precisamos fazer essa composição entre os objetos dependendo da regra que necessitarmos
 
 :information_source:**Objetivo do Decorator →**  Poder decorar, compor o objeto que você tem em seu código sem precisar alterar ou adaptar as características já existentes. O seu objeto original continua sendo eles mesmo apenas que com a agregação de uma nova característica/funcionalidade.
+
+---
+
+### Problema 3
+
+:red_circle:**Problema 3 →** Em nosso sistema temos o orçamento, e uma mesma pessoa pode abrir mais de um orçamento. Mas queremos fazer com que caso algum orçamento for reprovado e a pessoa abra um novo, devemos reaproveitar os dados do antigo orçamento e colocar no novo. Mas atualmente nossa estrutura de código não nos permite adicionar um orçamento antigo já reprovado.
+
+:heavy_check_mark:**Solução →** Utilizado o padrão de projeto **Composite** fazemos com que um orçamento componha o outro, diferente do decorator oque realizamos aqui é como se fosse uma hierarquia, uma estrutura de arvore, pois um objeto será composto por outro objeto. No caso um orçamento dentro de outro. No qual é possível acessar o objeto mais geral ou algum mais especifico.
+
+:information_source:**Objetivo do Composite →** Poder compor um objeto com outro, diferente do decorator, aqui podemos fazer uma estrutura de arvore, onde cada qual tem seu lugar. Mas caso seja necessário criar algo novo para integrar nessa composição será necessário realizar ajustes nas classes para que seja possível compor mais objetos, diferente do decorator o qual posso somente criar uma classe nova e decorar ela com outra sem precisar de alteração na já existente.
