@@ -9,7 +9,6 @@
 ---
 :dart:Esse README tem como objetivo conter as informações que anoitei ao longo do curso, contendo meus entendimentos e oque consegui absorver de cada aula e de cada solução.
 
----
 ## Padrões Estruturais
 ---
 
