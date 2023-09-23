@@ -3,7 +3,7 @@
 ---
 ## Infos
 
-:information_source: Este projeto se trata de uma continuação de outro curso que realizei. Decidi separa em dois repositórios pois são dois temas distintos e mais voltados para a parte teorica. Caso você queira ver o começo desse projeto deixarei abaixo o link:
+:information_source: Este projeto se trata de uma continuação de outro curso que realizei. Decidi separar em dois repositórios pois são dois temas distintos e mais voltados para a parte teorica. Caso você queira ver o começo desse projeto deixarei abaixo o link:
 :books:https://github.com/Rodrigo343/Loja-Desing-Patterns
 
 :dart:Esse README tem como objetivo conter as informações que anoitei ao longo do curso, contendo meus entendimentos e oque consegui absorver de cada aula e de cada solução.
