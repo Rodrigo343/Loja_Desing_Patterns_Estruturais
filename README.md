@@ -48,3 +48,13 @@
 :heavy_check_mark:**Solução →** Para esse caso utilizaríamos o facade, como o próprio nome diz criamos uma “fachada”, na qual nessa classe iriamos apenas chamar uma função principal que ira executar todos outros processos por de traz da criação de pedido a qual não precisaremos especificar os processos que precisam ser feitos quando chamarmos a criação de um pedido.
 
 :information_source:**Objetivo do Facade →** O Facade tem como objetivo abstrair todo um processo complexo e não deixar amostra isso para o cliente, facilitando a implementação e entendimento do código. Pois todas as tarefas desse processo complexo estarão diluídas em outros lugares a qual serão chamadas e executadas em sua ordem e que a classe que do cliente não precisa saber as outras funcionalidades/tarefas.
+
+---
+
+### Problema 5
+
+:red_circle:**Problema 5 →** Supondo que pegando os dados do orçamento de uma API e a mesma está mal otimizada e demora algum tempo para seu retorno. Temos o problema de que chamamos os dados do orçamento em mais de um lugar no código e pela má otimização da API, cada vez que chamamos dados relacionados ao orçamento é levado um tempo de processamento para cada requisição.
+
+:heavy_check_mark:**Solução →** Para esse caso utilizaríamos o proxy o qual servirá de interceptador para guardar os valores do orçamento que demoram para ser retornado, ele realizara isso uma única a qual posteriormente as outras chamadas começaram a utilizar os dados do proxy e não da API diretamente, assim resolvendo nosso problema de lentidão.
+
+:information_source:**Objetivo do proxy →** O proxy tem como objetivo servir como interceptador algum tipo de informação importante que você quer manipular de alguma forma. Ele facilita essa questão seja por lentidão, ou porque você precisa realizar algo com a informação, entre outros casos ele irá servir como interceptador para algo ser realizado com aquela informação
